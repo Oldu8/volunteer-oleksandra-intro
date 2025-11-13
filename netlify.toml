@@ -1,7 +1,4 @@
 [build]
   command = "npm run build"
-  publish = ".svelte-kit"
-
-[[plugins]]
-  package = "@sveltejs/adapter-netlify"
+  publish = ".svelte-kit/netlify"
 
